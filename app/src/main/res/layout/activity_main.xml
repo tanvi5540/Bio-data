@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="bio-data"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+    </View>
+    <ImageView
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:src="@drawable/shizuka"
+        android:layout_gravity="bottom">
+
+    </ImageView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textStyle="bold"
+        android:textSize="15dp">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="surname"
+        android:textStyle="bold"
+        android:textSize="15dp">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth"
+        android:textStyle="bold"
+        android:textSize="15dp">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobby"
+        android:textStyle="bold"
+        android:textSize="15dp">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textStyle="bold"
+        android:textSize="15dp">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textStyle="bold"
+        android:textSize="15dp">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qualifications"
+        android:textStyle="bold"
+        android:textSize="15dp">
+
+    </EditText>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </RadioGroup>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Male">
+
+        </RadioButton>
+
+        <RadioButton
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="0"
+             android:text="Female">
+
+        </RadioButton>
+
+        <RadioButton
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="0"
+             android:text="other">
+
+        </RadioButton>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textSize="20dp">
+
+    </Button>
+
+</LinearLayout>
